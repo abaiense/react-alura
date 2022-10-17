@@ -11,6 +11,7 @@ const ListaSuspensa = (props) => {
         id=""
         value={props.valor}
       >
+        <option placeholder="aaaa">Selecione o Campo...</option>
         {props.itens.map((item) => (
           <option key={item}>{item}</option>
         ))}
